@@ -26,17 +26,17 @@ body
     float:left;
     padding-top:20px;
     
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
+    -webkit-transition: all 900ms ease-in;
+    -moz-transition: all 900ms ease-in;
+    -ms-transition: all 900ms ease-in;
+    -o-transition: all 900ms ease-in;
+    transition: all 900ms ease-in;
 }
 #logo:hover
 {
-    text-shadow:0 0 15px #17B9F9;
-    
+    text-shadow:0 0 25px #31A8FD;
 }
+
 #logo #logo1
 {
     font-size: 2em;
@@ -48,7 +48,6 @@ body
     font-weight: bold;
     color:#0B609D;
 }
-
 #banner{
     margin-left:150px;
     text-align: center;
@@ -66,17 +65,32 @@ body
     overflow:auto;
     padding:10px; margin:2px;
     border-radius:5px;
-}
-#selectTable #tblContainer td{
-    padding:5px 10px;    
+    
+    box-shadow: inset 0 0 10px #939393;
 }
 #selectTable #tblContainer tr{
     border:1px solid #C8C8C8;
     
 }
+#selectTable #tblContainer td label{
+    padding:5px 10px;
+    display: block;    
+    
+}
+#selectTable #tblContainer td label input[type="checkbox"]{
+    margin-right: 20px;
+    vertical-align: middle;
+}
+#selectTable #tblContainer tr,#selectTable #tblContainer input[type="checkbox"]{
+
+    transition: all 400ms ease-in;
+}
 #selectTable #tblContainer tr:hover{
     background-color: #F9EDCC;
     color:#2C2C2C;
+}
+#selectTable #tblContainer input[type="checkbox"]:hover{
+    box-shadow: 0 0 20px #F80A0A;    
 }
 #footer{
     
