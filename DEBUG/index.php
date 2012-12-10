@@ -790,11 +790,6 @@ function filter($str)
             }
         </script>
       
-        <div id="test">
-            <pre>
-                <?php print_r(get_defined_vars()); ?>
-            </pre>
-        </div>
       
     </body>
 </html>
